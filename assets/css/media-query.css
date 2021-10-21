@@ -13,17 +13,7 @@
     ##Screen = B/w 1025px to 1280px
   */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-    /* CSS */
-}
-
-
-/* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1280px) {
     /* CSS */
 }
 
@@ -33,13 +23,19 @@
     ##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .grid-container {
+@media (max-width: 1024px) {
+    .contenedor {
+        max-width: 95%;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    /* .grid-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 35rem);
         row-gap: 15px;
         column-gap: 15px;
-    }
+    } */
 }
 
 
@@ -48,25 +44,15 @@
     ##Screen = B/w 481px to 767px
   */
 
-@media (min-width: 481px) and (max-width: 767px) {
-    .grid-container {
+@media (max-width: 768px) {
+    /* .grid-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 35rem);
         row-gap: 15px;
         column-gap: 15px;
-    }
-}
-
-
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .titulo-portada {
-        text-align: center;
-        margin-bottom: 2rem;
+    } */
+    nav a {
+        font-size: 2.3rem;
     }
     h1 {
         font-size: 3.5rem;
@@ -75,21 +61,25 @@
     h2 {
         font-size: 2rem;
     }
-    .barra-header {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    nav {
-        flex-direction: column;
-    }
-    nav a {
-        font-size: 2.5rem;
-        padding-right: 0;
-    }
-    .grid-container {
+}
+
+@media (max-width: 640px) {
+    /* .grid-container {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 35rem);
+        grid-template-rows: repeat(3, 1fr);
         row-gap: 15px;
         column-gap: 15px;
+    } */
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
     }
 }

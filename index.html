@@ -16,13 +16,13 @@
 
 <body class="text-2xl font-thin">
     <header class="site-header py-4 px-0 bg-center bg-cover h-screen">
-        <div class="max-w-screen-xl my-0 mx-auto h-full flex flex-col justify-between">
-            <div class="flex justify-between items-center barra-header">
+        <div class="contenedor h-full flex flex-col justify-between">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
                 <a href="index.html">
-                    <img class="w-44" src="assets/img/logo.png" alt="logotipo">
+                    <img class="w-32 md:w-40 lg:w-44" src="assets/img/logo.png" alt="logotipo">
                 </a>
 
-                <nav class="flex justify-between items-center leading-tight">
+                <nav class="w-full lg:w-3/4 xl:w-1/2 flex justify-evenly items-center leading-tight">
                     <a href="">Educación</a>
                     <a href="">Experiencia</a>
                     <a href="">Portafolio</a>
@@ -31,7 +31,7 @@
             </div>
 
 
-            <div class="text-5xl text-white leading-loose titulo-portada">
+            <div class="text-5xl text-white leading-loose text-center lg:text-left mb-8 ">
                 <h1>Desarrollo de Software</h1>
                 <h2>Ing. Jose A Villalobos</h2>
             </div>
@@ -39,44 +39,43 @@
     </header>
 
 
-    <section class="max-w-screen-xl my-0 mx-auto">
+    <section class="contenedor">
         <h2 class="text-center leading-loose my-12 mx-0">Portafolio</h2>
-
-        <div class="grid grid-cols-3 grid-rows-1 gap-6 leading-none grid-container">
-            <div class="bg-white grid perfil-card">
+        <div class="grid grid-cols-1 sm:grid-cols-2 grid-rows-3 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-6 leading-none grid-container">
+            <div class="bg-white grid  perfil-card">
                 <a href="https://flamboyant-curran-e05753.netlify.app/index.html">
-                    <img class="w-full h-80" src="assets/img/bienes-raices.png" alt="">
+                    <img class="w-full h-full" src="assets/img/bienes-raices.png" alt="">
                 </a>
 
-                <a href="https://flamboyant-curran-e05753.netlify.app/index.html" class="pt-2 pl-6">
+                <a href="https://flamboyant-curran-e05753.netlify.app/index.html" class="justify-self-center self-center sm:justify-self-start sm:self-start sm:pt-2 sm:pl-6">
                     <h3>Bienes Raices | Sitio Web</h3>
                 </a>
 
-                <p class="pt-2 pl-6 pb-2 publish-date">2020</p>
+                <p class="justify-self-center self-center sm:justify-self-start sm:self-end sm:py-2 sm:pl-6 publish-date">2020</p>
             </div>
 
             <div class="bg-white grid perfil-card">
                 <a href="">
-                    <img class="w-full h-80" src="assets/img/blog_cafe.png" alt="">
+                    <img class="w-full h-full" src="assets/img/blog_cafe.png" alt="">
                 </a>
 
-                <a href="" class="pt-2 pl-6">
+                <a href="" class="justify-self-center self-center sm:justify-self-start sm:self-start sm:pt-2 sm:pl-6">
                     <h3>Blog de Café | Sitio Web Responsivo</h3>
                 </a>
 
-                <p class="pt-2 pl-6 pb-2 publish-date">2020</p>
+                <p class="justify-self-center self-center sm:justify-self-start sm:self-end sm:py-2 sm:pl-6 publish-date">2020</p>
             </div>
 
             <div class="bg-white grid perfil-card">
                 <a href="">
-                    <img class="w-full h-80" src="assets/img/imagen2.png" alt="">
+                    <img class="w-full h-full" src="assets/img/imagen2.png" alt="">
                 </a>
 
-                <a href="" class="pt-2 pl-6">
+                <a href="" class="justify-self-center self-center sm:justify-self-start sm:self-start sm:pt-2 sm:pl-6">
                     <h3>Prueba Cometa | App Web</h3>
                 </a>
 
-                <p class="pt-2 pl-6 pb-6 publish-date">2019</p>
+                <p class="justify-self-center self-center sm:justify-self-start sm:self-end sm:py-2 sm:pl-6 publish-date">2019</p>
             </div>
 
         </div>
