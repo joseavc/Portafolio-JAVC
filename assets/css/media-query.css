@@ -1,0 +1,66 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* CSS */
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (max-width: 1280px) {
+    /* CSS */
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (max-width: 1024px) {
+    .contenedor {
+        max-width: 95%;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 2.3rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 640px) {}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+}
