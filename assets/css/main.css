@@ -1,64 +1,68 @@
-html{
+html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
 
 *,
 *:before,
-*:after{
+*:after {
     box-sizing: inherit;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
     background-color: #ededed;
 }
 
-h1{
+h1 {
     font-size: 5.8rem;
     font-weight: 700;
 }
 
-h2{
+h2 {
     font-size: 3.4rem;
     font-weight: 400;
 }
 
-h3{
-    font-size: 3rem;
+h3 {
+    font-size: 2.8rem;
     font-weight: 300;
 }
 
-p{
+p {
     font-weight: 400;
 }
 
-.site-header{
+.contenedor {
+    max-width: 89%;
+    margin: 0 auto;
+}
+
+.site-header {
     background-image: url(../img/header.jpg);
     min-height: 60rem;
 }
 
-nav a{
+nav a {
     font-size: 2.8rem;
-    padding-right: 4rem;
     color: #fff;
     text-decoration: none;
 }
 
-.perfil-card{
+.perfil-card {
+    grid-template: 60% 1fr 1fr / auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    grid-template: 22rem 4fr 1fr / auto;
 }
 
-.perfil-card:hover{
+.perfil-card:hover {
     box-shadow: 0 0 6px #023047;
 }
 
-.publish-date{
+.publish-date {
     color: #686869;
 }
